@@ -9,8 +9,8 @@ BilibiliSpeed 是基于 [Bilibili NEXT](https://github.com/wzk112/Bilibili-NEXT)
 ```
 
 - Mac：播放页倍速菜单。iPhone／iPad：点视频画面左上角的倍速（如“1×”），或播放选项 → 播放速度。
-- 在线播放保留上游的 0.5×–2× 六档；在线与缓存的倍速分别记住。
-- 长按临时加速仍为在线 2×、本地 3×，松开后回到所选倍速。
+- 在线播放可选 0.5×、0.75×、1×、1.25×、1.5×、2×–8×（整数档）共 12 档；在线与缓存的倍速分别记住。
+- 长按临时加速为在线 2×、本地 3×；所选倍速更高时保持所选倍速不降速，松开后回到所选倍速。
 - 本机 AVPlayer 实测 22 档均被接受，实际推进约为设定值的 92%–94%（128× 约 117×）；高倍速下音画与弹幕表现、真机效果尚未验收。需求、设计与验证记录见 [BILIBILISPEED_SPEC.md](BILIBILISPEED_SPEC.md)。
 
 BilibiliSpeed 使用独立的 bundle ID（Mac `com.iosdevlog.BilibiliSpeed`，iOS `com.iosdevlog.BilibiliSpeed.iOS`）、钥匙串服务和缓存目录，可与 Bilibili NEXT 同时安装；登录、设置和下载不互通，首次使用需要重新扫码登录。

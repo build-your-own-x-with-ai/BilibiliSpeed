@@ -15,7 +15,9 @@
 
 - 实现位置：`Sources/BiliGlass/Player.swift`（`offlineSpeedOptions`、`onlineSpeedOptions`、`clampSpeed`、`formatSpeed`、`availableSpeeds`、`setSpeed`），Mac 倍速菜单在 `Sources/BiliGlass/Views.swift`，iOS 选择器为 `Apps/iOS/Sources/MobileSpeedPicker.swift`，入口在 `MobilePlayer.swift` 的“播放选项”菜单。
 - 草案中的 `SpeedSelectionView`、`MobileSpeedSelector` 和 `showSpeedSelection` 未采用；Mac 直接复用原有倍速菜单。
-- 选项按 `isOffline` 决定，不再按 `canPlayFastForward` 区分；在线保留原有六档。
+- 选项按 `isOffline` 决定，不再按 `canPlayFastForward` 区分。在线为 0.5×、0.75×、1×、1.25×、1.5×、2×–8× 共 12 档（2026-11-07 起，原为六档）。
+- 长按临时加速取 `max(所选倍速, 在线 2× / 本地 3×)`，避免所选倍速高于临时倍速时长按反而减速。
+- 在线 1×–8× 实测：本机 `python3 -m http.server` 提供 10 分钟 720p H.264 fMP4 HLS，AVPlayer 每档播放 4 秒，实际推进 0.99–1.01 倍于设定值，无卡顿、无丢帧；`canPlayFastForward` 为 false 但高倍速仍连续播放。未测真实 B 站 CDN：8× 需要约 8 倍码率的下载速度，网络不足时会缓冲。
 - 测试：`swift test --filter "SpeedSelectionTests|PlaybackSpeedPreferenceTests"`（8 项），全量 `swift test` 263 项通过；`Scripts/build-ios.sh` 模拟器构建通过。
 - 本机 AVPlayer 实测（10 分钟 720p H.264 本地文件，每档播放 1 秒）：22 档均被接受，实际推进约为设定值的 92%–94%，128× 约 117×。
 - 尚未验证：应用内播放已下载视频的画面与音频、高倍速下的弹幕、iPhone／iPad 真机。

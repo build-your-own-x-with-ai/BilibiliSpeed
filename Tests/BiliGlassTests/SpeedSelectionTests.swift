@@ -7,8 +7,8 @@ struct SpeedSelectionTests {
     #expect(Playback.offlineSpeedOptions == [0.25, 0.5, 0.75, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32, 64, 128])
   }
 
-  @Test func onlineOptionsKeepPreviousMenu() {
-    #expect(Playback.onlineSpeedOptions == [0.5, 0.75, 1, 1.25, 1.5, 2])
+  @Test func onlineOptionsReachEight() {
+    #expect(Playback.onlineSpeedOptions == [0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4, 5, 6, 7, 8])
   }
 
   @Test func clampPicksNearestOfflineOption() {
@@ -19,9 +19,10 @@ struct SpeedSelectionTests {
     #expect(Playback.clampSpeed(64, isOffline: true) == 64)
   }
 
-  @Test func clampLimitsOnlineToTwo() {
+  @Test func clampLimitsOnlineToEight() {
     #expect(Playback.clampSpeed(0.25, isOffline: false) == 0.5)
-    #expect(Playback.clampSpeed(16, isOffline: false) == 2)
+    #expect(Playback.clampSpeed(16, isOffline: false) == 8)
+    #expect(Playback.clampSpeed(5, isOffline: false) == 5)
     #expect(Playback.clampSpeed(1.25, isOffline: false) == 1.25)
   }
 
@@ -59,8 +60,8 @@ struct SpeedSelectionTests {
 
       p.isOffline = false
       p.setSpeed(16)
-      #expect(p.speed == 2)
-      #expect(UserDefaults.standard.float(forKey: "onlinePlaybackSpeed") == 2)
+      #expect(p.speed == 8)
+      #expect(UserDefaults.standard.float(forKey: "onlinePlaybackSpeed") == 8)
       #expect(UserDefaults.standard.float(forKey: "offlinePlaybackSpeed") == 128)
     }
   }

@@ -30,7 +30,7 @@ struct MobileSpeedPicker: View {
           Text("选择播放速度")
         } footer: {
           if !playback.isOffline {
-            Text("在线播放速度限制为 2×")
+            Text("在线播放最高 8×；下载后可选更高倍速")
           }
         }
       }

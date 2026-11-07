@@ -46,7 +46,7 @@ struct PlaybackResume {
   var isBoosting = false
   var temporarySpeed: Float = 3
   nonisolated static let offlineSpeedOptions: [Float] = [0.25, 0.5, 0.75, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32, 64, 128]
-  nonisolated static let onlineSpeedOptions: [Float] = [0.5, 0.75, 1, 1.25, 1.5, 2]
+  nonisolated static let onlineSpeedOptions: [Float] = [0.5, 0.75, 1, 1.25, 1.5, 2, 3, 4, 5, 6, 7, 8]
   var showsDetails = false
   var showsSystemControls = false
   var isFullscreen = false
@@ -663,7 +663,7 @@ struct PlaybackResume {
   }
   func beginTemporarySpeed() -> Bool {
     guard !loading, !buffering, player.timeControlStatus == .playing, let item = player.currentItem else { return false }
-    temporarySpeed = Self.temporaryRate(isOffline: isOffline, canPlayFastForward: item.canPlayFastForward)
+    temporarySpeed = max(speed, Self.temporaryRate(isOffline: isOffline, canPlayFastForward: item.canPlayFastForward))
     isBoosting = true
     player.rate = temporarySpeed
     return true
