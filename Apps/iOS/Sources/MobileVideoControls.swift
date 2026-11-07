@@ -190,6 +190,7 @@ struct MobileVideoSurface: View {
   @State private var position = 0.0
   @State private var seeking = false
   @State private var settings = false
+  @State private var speedPicker = false
   @AppStorage("danmakuEnabled") private var danmaku = true
   @Environment(\.scenePhase) private var scenePhase
   private var duration: Double {
@@ -224,11 +225,10 @@ struct MobileVideoSurface: View {
             Button { danmaku.toggle() } label: {
               Image(systemName: danmaku ? "text.bubble.fill" : "text.bubble").frame(width: 44, height: 44).contentShape(.rect)
             }.accessibilityLabel(danmaku ? "关闭弹幕" : "开启弹幕")
-            Menu {
-              ForEach([0.5, 0.75, 1, 1.25, 1.5, 2, 3], id: \.self) { speed in
-                Button("\(speed.formatted())×") { store.playback.setSpeed(Float(speed)) }
-              }
-            } label: { Text("\(Double(store.playback.speed).formatted())×") }.accessibilityLabel("倍速")
+            Button { speedPicker = true } label: {
+              Text(Playback.formatSpeed(store.playback.speed)).frame(minWidth: 44, minHeight: 44).contentShape(.rect)
+            }.accessibilityLabel("倍速").accessibilityValue(Playback.formatSpeed(store.playback.speed))
+              .accessibilityIdentifier("player-speed")
             Spacer(minLength: 0)
             Menu {
               Button("关闭字幕") { Task { await store.extras.selectSubtitle("", api: store.api) } }
@@ -293,5 +293,6 @@ struct MobileVideoSurface: View {
       }
       .onChange(of: scenePhase) { if scenePhase != .active { store.playback.endTemporarySpeed() } }
       .sheet(isPresented: $settings) { MobileDanmakuSettings() }
+      .sheet(isPresented: $speedPicker) { MobileSpeedPicker(playback: store.playback) }
   }
 }

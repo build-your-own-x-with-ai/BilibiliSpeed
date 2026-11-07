@@ -1,180 +1,625 @@
 // !$*UTF8*$!
-{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
-		D66389BB6C3D0042111B3C6F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/BrowsePreferences.swift"; sourceTree = SOURCE_ROOT; };
-		E103756AFA669CEDB2EF2A3D = { isa = PBXBuildFile; fileRef = D66389BB6C3D0042111B3C6F; };
-		AB3841BC87C3D2E8CE4BA757 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/PlaybackSequence.swift"; sourceTree = SOURCE_ROOT; };
-		D879EDFE5FFD7CDC92CC6BB6 = { isa = PBXBuildFile; fileRef = AB3841BC87C3D2E8CE4BA757; };
-		41A2A9140F9001C324332602 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/InterfaceMotion.swift"; sourceTree = SOURCE_ROOT; };
-		42708F43EF27C810010A7375 = { isa = PBXBuildFile; fileRef = 41A2A9140F9001C324332602; };
-		95815126B961387DB2F74F95 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/API.swift"; sourceTree = SOURCE_ROOT; };
-		4BBAA70169B551F32C336383 = { isa = PBXBuildFile; fileRef = 95815126B961387DB2F74F95; };
-		FC7F2613C3DBEACF55E023EC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/AppCoinAuthorization.swift"; sourceTree = SOURCE_ROOT; };
-		867172CA0D2ADC4282E5823F = { isa = PBXBuildFile; fileRef = FC7F2613C3DBEACF55E023EC; };
-		7D1B7D6CCF52EAE4E043451A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/LoginRestoration.swift"; sourceTree = SOURCE_ROOT; };
-		BD1BBE9B7A42D83E6F7990C5 = { isa = PBXBuildFile; fileRef = 7D1B7D6CCF52EAE4E043451A; };
-		46B8885D60C9E882112DD690 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/Community.swift"; sourceTree = SOURCE_ROOT; };
-		91FE1B977526D8DF9AB12DCA = { isa = PBXBuildFile; fileRef = 46B8885D60C9E882112DD690; };
-		E495A96E92C24794533704FB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/VideoActions.swift"; sourceTree = SOURCE_ROOT; };
-		426FFE888632901E9A057564 = { isa = PBXBuildFile; fileRef = E495A96E92C24794533704FB; };
-		A01805F04BE9FD413AA6EE7A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/OfficialChallenge.swift"; sourceTree = SOURCE_ROOT; };
-		D91F70A8AF207BAEA649DCC8 = { isa = PBXBuildFile; fileRef = A01805F04BE9FD413AA6EE7A; };
-		0F157C12401C80BCEBED9367 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/CommentPage.swift"; sourceTree = SOURCE_ROOT; };
-		13E318A5F3E2DC9C48DFA830 = { isa = PBXBuildFile; fileRef = 0F157C12401C80BCEBED9367; };
-		044167A00E0081F17358769B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/CommentText.swift"; sourceTree = SOURCE_ROOT; };
-		3E3BA0ADC66336B640989661 = { isa = PBXBuildFile; fileRef = 044167A00E0081F17358769B; };
-		17367235AC176205F689AC1C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/CommentVideoLink.swift"; sourceTree = SOURCE_ROOT; };
-		1065784069258CB6EA568CBA = { isa = PBXBuildFile; fileRef = 17367235AC176205F689AC1C; };
-		8734354A283A00F18FC62A83 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/VideoExtras.swift"; sourceTree = SOURCE_ROOT; };
-		AFFD3DE9B0DA699FE85BC847 = { isa = PBXBuildFile; fileRef = 8734354A283A00F18FC62A83; };
-		FF6B1107C40B55B394B4A583 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/VideoPreview.swift"; sourceTree = SOURCE_ROOT; };
-		B0A8259CE1C3BF0352745137 = { isa = PBXBuildFile; fileRef = FF6B1107C40B55B394B4A583; };
-		DAE395773BFED0616EBC239A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/SearchFeatures.swift"; sourceTree = SOURCE_ROOT; };
-		F077D0279A03D6BB164AEC47 = { isa = PBXBuildFile; fileRef = DAE395773BFED0616EBC239A; };
-		C93677C4A4234DEF89406FCB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/Regions.swift"; sourceTree = SOURCE_ROOT; };
-		B7E3157CAE18E2C196D7FC69 = { isa = PBXBuildFile; fileRef = C93677C4A4234DEF89406FCB; };
-		28CEAA38F70122836EA51A23 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/AccountHistory.swift"; sourceTree = SOURCE_ROOT; };
-		C37A39D074E8C64712498BDF = { isa = PBXBuildFile; fileRef = 28CEAA38F70122836EA51A23; };
-		3B98837209AEEC75D43F80DD = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/MessageShare.swift"; sourceTree = SOURCE_ROOT; };
-		DEC13944B14ED5302364FF5F = { isa = PBXBuildFile; fileRef = 3B98837209AEEC75D43F80DD; };
-		551A1F2AEB3735C34973456F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/NativeSpace.swift"; sourceTree = SOURCE_ROOT; };
-		5FD587C8073AF4139554BC33 = { isa = PBXBuildFile; fileRef = 551A1F2AEB3735C34973456F; };
-		345FEF2ADC4FF8A54B23A862 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DynamicPublishing.swift"; sourceTree = SOURCE_ROOT; };
-		F7183FEBA95E2E89D6BFA70F = { isa = PBXBuildFile; fileRef = 345FEF2ADC4FF8A54B23A862; };
-		2B599F4E117745EEFCBE2AF5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/Messaging.swift"; sourceTree = SOURCE_ROOT; };
-		305814DABE98A9EC8DBD56CA = { isa = PBXBuildFile; fileRef = 2B599F4E117745EEFCBE2AF5; };
-		2C69A001E63F81EB4D9E82C7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/ImageUpload.swift"; sourceTree = SOURCE_ROOT; };
-		63CD427F2FBAB5D8139C9A6B = { isa = PBXBuildFile; fileRef = 2C69A001E63F81EB4D9E82C7; };
-		AFC6436A995FB8BFAD5190EF = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/WatchHistorySync.swift"; sourceTree = SOURCE_ROOT; };
-		C41F2E68C508D97873BB0422 = { isa = PBXBuildFile; fileRef = AFC6436A995FB8BFAD5190EF; };
-		3AABAF852C56AFB9E74DBDC2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/AppDateFormat.swift"; sourceTree = SOURCE_ROOT; };
-		E5BC50BFC90B4FCB79B484C4 = { isa = PBXBuildFile; fileRef = 3AABAF852C56AFB9E74DBDC2; };
-		F87A41C2023452BD45C83819 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/ThumbnailCache.swift"; sourceTree = SOURCE_ROOT; };
-		435ABB2A1F99BD5183E1E0F8 = { isa = PBXBuildFile; fileRef = F87A41C2023452BD45C83819; };
-		26BF883486A790003280EF4C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/TaskDeadline.swift"; sourceTree = SOURCE_ROOT; };
-		8A0E2BBE875012E1E4D350CD = { isa = PBXBuildFile; fileRef = 26BF883486A790003280EF4C; };
-		91B2FDAA65D0032BA4BB3A66 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/Player.swift"; sourceTree = SOURCE_ROOT; };
-		5CD75E728FF0915A9D71BAEF = { isa = PBXBuildFile; fileRef = 91B2FDAA65D0032BA4BB3A66; };
-		C579A5AE92A34FEB07B7CDD6 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/PlaybackProgressDeadline.swift"; sourceTree = SOURCE_ROOT; };
-		911D80119E7A27B46A385F73 = { isa = PBXBuildFile; fileRef = C579A5AE92A34FEB07B7CDD6; };
-		99242C62EB6FEA307D5914D9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/CDNSelection.swift"; sourceTree = SOURCE_ROOT; };
-		1E6D42EF398DCE428AC2C31B = { isa = PBXBuildFile; fileRef = 99242C62EB6FEA307D5914D9; };
-		882BEA01F7D0AECE7545354E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/ParallelVideoStream.swift"; sourceTree = SOURCE_ROOT; };
-		63FB03B81C7525B3CD49D543 = { isa = PBXBuildFile; fileRef = 882BEA01F7D0AECE7545354E; };
-		052B903772388BF5F2AC182A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/PlaybackDiskCache.swift"; sourceTree = SOURCE_ROOT; };
-		F1829965BE252DAFBF7EA002 = { isa = PBXBuildFile; fileRef = 052B903772388BF5F2AC182A; };
-		6E01678867077901D2B7E2A5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/VideoSignalling.swift"; sourceTree = SOURCE_ROOT; };
-		26395838477187FBED7AE299 = { isa = PBXBuildFile; fileRef = 6E01678867077901D2B7E2A5; };
-		CFCB3937499DFB7A7980ECAE = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/MP4Compatibility.swift"; sourceTree = SOURCE_ROOT; };
-		0B82F631B22B2CAB0509B809 = { isa = PBXBuildFile; fileRef = CFCB3937499DFB7A7980ECAE; };
-		73E6ABFB8DE399849D69F6FB = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DanmakuModels.swift"; sourceTree = SOURCE_ROOT; };
-		F7B6D476C5FF6726085ABFB6 = { isa = PBXBuildFile; fileRef = 73E6ABFB8DE399849D69F6FB; };
-		8F4EC9B9FE1F707D1B67F7E9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/Downloads.swift"; sourceTree = SOURCE_ROOT; };
-		8F51B58FB6AC72C50502B7BF = { isa = PBXBuildFile; fileRef = 8F4EC9B9FE1F707D1B67F7E9; };
-		A006B54CBBA3BD64EBD0A8B5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DownloadPiece.swift"; sourceTree = SOURCE_ROOT; };
-		CA43723A19ADEFF1ECCF5F9C = { isa = PBXBuildFile; fileRef = A006B54CBBA3BD64EBD0A8B5; };
-		8641B18D1D71583934D39C3A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DownloadPublication.swift"; sourceTree = SOURCE_ROOT; };
-		AB92A483337532872723C3EE = { isa = PBXBuildFile; fileRef = 8641B18D1D71583934D39C3A; };
-		0C4A16C43D14D4E9C33F0077 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/NotificationModels.swift"; sourceTree = SOURCE_ROOT; };
-		B1B07A1E9024C290B06F3188 = { isa = PBXBuildFile; fileRef = 0C4A16C43D14D4E9C33F0077; };
-		4E774C26953ACDD1E5A77507 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/EmojiPicker.swift"; sourceTree = SOURCE_ROOT; };
-		3764518B756794241D0845D3 = { isa = PBXBuildFile; fileRef = 4E774C26953ACDD1E5A77507; };
-		A5863E3398FEA702D3EF2931 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/ConversationTimeline.swift"; sourceTree = SOURCE_ROOT; };
-		F4F8E8F4834768842EA3B0C7 = { isa = PBXBuildFile; fileRef = A5863E3398FEA702D3EF2931; };
-		007EBFAB9BEF2577E47BB1FA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DanmakuLayout.swift"; sourceTree = SOURCE_ROOT; };
-		B854D1A2453CD8EFDA10557F = { isa = PBXBuildFile; fileRef = 007EBFAB9BEF2577E47BB1FA; };
-		D197AAF6F37879305F50A06D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DanmakuCloudRules.swift"; sourceTree = SOURCE_ROOT; };
-		33C14B7D59AAF6D4426301CB = { isa = PBXBuildFile; fileRef = D197AAF6F37879305F50A06D; };
-		CE107B048E5BC1C90AC5620F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DanmakuTextBitmap.swift"; sourceTree = SOURCE_ROOT; };
-		3992160A7A0F175D277A3221 = { isa = PBXBuildFile; fileRef = CE107B048E5BC1C90AC5620F; };
-		D93F8587D1FC3CF6BF1F866A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DanmakuSettings.swift"; sourceTree = SOURCE_ROOT; };
-		3B1210F97E634DAEA3A6C06B = { isa = PBXBuildFile; fileRef = D93F8587D1FC3CF6BF1F866A; };
-		E7144546A65CBB77D5AF4D84 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/BiliImageURL.swift"; sourceTree = SOURCE_ROOT; };
-		73065EB7D6B7AD007F800310 = { isa = PBXBuildFile; fileRef = E7144546A65CBB77D5AF4D84; };
-		C28D0A07F4B4F69CC69DCACC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/DynamicAttachment.swift"; sourceTree = SOURCE_ROOT; };
-		44814DD5C6FE4F34DC0A80D4 = { isa = PBXBuildFile; fileRef = C28D0A07F4B4F69CC69DCACC; };
-		763F98ACDEC4BCE74F039FD3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/BAS.swift"; sourceTree = SOURCE_ROOT; };
-		EEDFD682FC61028BD9006CBF = { isa = PBXBuildFile; fileRef = 763F98ACDEC4BCE74F039FD3; };
-		8CB78ECEE932457107AB9523 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/SVGPath.swift"; sourceTree = SOURCE_ROOT; };
-		4755E67EC223DEFD7D3378C2 = { isa = PBXBuildFile; fileRef = 8CB78ECEE932457107AB9523; };
-		68B53D4AB8FF1BEB1FF0BCFC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "../../Sources/BiliGlass/SpecialDanmaku.swift"; sourceTree = SOURCE_ROOT; };
-		E21565AF0105624107E77DDA = { isa = PBXBuildFile; fileRef = 68B53D4AB8FF1BEB1FF0BCFC; };
-		91AAFB7C343470BA0B9DB988 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileAccount.swift"; sourceTree = SOURCE_ROOT; };
-		F736272A2519AE5019A53493 = { isa = PBXBuildFile; fileRef = 91AAFB7C343470BA0B9DB988; };
-		E74EBD33C605E0814171844E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileActionBar.swift"; sourceTree = SOURCE_ROOT; };
-		31D4A655A7BE57189F52BA8E = { isa = PBXBuildFile; fileRef = E74EBD33C605E0814171844E; };
-		5E5EC4B101316FC8DF8BCA2D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileApp.swift"; sourceTree = SOURCE_ROOT; };
-		58DFE8875041CCAA68FF749B = { isa = PBXBuildFile; fileRef = 5E5EC4B101316FC8DF8BCA2D; };
-		B1741025F008A299C2F95BF4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileBrowse.swift"; sourceTree = SOURCE_ROOT; };
-		D433264DC7EA0FEC313F8635 = { isa = PBXBuildFile; fileRef = B1741025F008A299C2F95BF4; };
-		84746213D56067A55E5D47A7 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileCommunity.swift"; sourceTree = SOURCE_ROOT; };
-		6052832E9B20B0827DC695E5 = { isa = PBXBuildFile; fileRef = 84746213D56067A55E5D47A7; };
-		AF696553DB770E1A52F4F672 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileDanmakuCanvas.swift"; sourceTree = SOURCE_ROOT; };
-		15CC4A7031EBE3B966380045 = { isa = PBXBuildFile; fileRef = AF696553DB770E1A52F4F672; };
-		DEE68DBA38BA364B60991A49 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileDanmakuSettings.swift"; sourceTree = SOURCE_ROOT; };
-		1EC6FF87D1B9D3DF2EC3484E = { isa = PBXBuildFile; fileRef = DEE68DBA38BA364B60991A49; };
-		504F8EC035FCC32BE4ECA073 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileFavoriteFixture.swift"; sourceTree = SOURCE_ROOT; };
-		B2A92D1C46C25414BA35CFCC = { isa = PBXBuildFile; fileRef = 504F8EC035FCC32BE4ECA073; };
-		6C1657D0168A4163F07CD63B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileInbox.swift"; sourceTree = SOURCE_ROOT; };
-		E4E61D763AE49B03138A0D9F = { isa = PBXBuildFile; fileRef = 6C1657D0168A4163F07CD63B; };
-		ACE5BC4005A688BC25058187 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileMaterials.swift"; sourceTree = SOURCE_ROOT; };
-		C30ADD9536A63CE95FB01343 = { isa = PBXBuildFile; fileRef = ACE5BC4005A688BC25058187; };
-		8416915EE84DB3F6E62A61C6 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileNavigation.swift"; sourceTree = SOURCE_ROOT; };
-		EF5E2F11A9EC3D5CECF9B05D = { isa = PBXBuildFile; fileRef = 8416915EE84DB3F6E62A61C6; };
-		C4F04AC2D1F89139105F8D15 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileNowPlaying.swift"; sourceTree = SOURCE_ROOT; };
-		917C68442D1E3BC6CDE99D61 = { isa = PBXBuildFile; fileRef = C4F04AC2D1F89139105F8D15; };
-		2F145BF103F466B158ED686A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobilePlayer.swift"; sourceTree = SOURCE_ROOT; };
-		741E76A9518F89418D3C98ED = { isa = PBXBuildFile; fileRef = 2F145BF103F466B158ED686A; };
-		3AAEDCD183B3AD72B314EE4A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileSocial.swift"; sourceTree = SOURCE_ROOT; };
-		A36A208596D3511A419C607C = { isa = PBXBuildFile; fileRef = 3AAEDCD183B3AD72B314EE4A; };
-		642CEE680C6AEBC5DC44BD92 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileSpeedPicker.swift"; sourceTree = SOURCE_ROOT; };
-		2A5732D3D3D5F9EC816A1D61 = { isa = PBXBuildFile; fileRef = 642CEE680C6AEBC5DC44BD92; };
-		51D8C0A09C47FB6D573A4802 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileTablet.swift"; sourceTree = SOURCE_ROOT; };
-		720BC912A630C1D3364522E4 = { isa = PBXBuildFile; fileRef = 51D8C0A09C47FB6D573A4802; };
-		15C7881CB336920A15876BAC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileUIFixture.swift"; sourceTree = SOURCE_ROOT; };
-		CC24DD3F3CE095945FDCD9EA = { isa = PBXBuildFile; fileRef = 15C7881CB336920A15876BAC; };
-		90AA134CC0D38732471C3C7B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileVideoControls.swift"; sourceTree = SOURCE_ROOT; };
-		11C673E423E92F6E4FD52250 = { isa = PBXBuildFile; fileRef = 90AA134CC0D38732471C3C7B; };
-		21EA211DC10ABBE57256F13D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/MobileZoomableImage.swift"; sourceTree = SOURCE_ROOT; };
-		575FB4E5DE24E53727EB9BDA = { isa = PBXBuildFile; fileRef = 21EA211DC10ABBE57256F13D; };
-		0C299F368686D7C3AF7EE31B = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
-		0561B6B779527A2FA058B6AB = { isa = PBXBuildFile; fileRef = 0C299F368686D7C3AF7EE31B; };
-		3EDD2D049FB04038F1BB32A4 = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/LICENSE.txt"; sourceTree = SOURCE_ROOT; };
-		2452B9A7AF0E645AAF318091 = { isa = PBXBuildFile; fileRef = 3EDD2D049FB04038F1BB32A4; };
-		93C85B514576D21151FADB71 = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/BiliKit-LICENSE.txt"; sourceTree = SOURCE_ROOT; };
-		592FFE00B0873774A1DA154F = { isa = PBXBuildFile; fileRef = 93C85B514576D21151FADB71; };
-		CD80EDA102BD8B96A9914368 = { isa = PBXFileReference; lastKnownFileType = text; path = "Resources/THIRD_PARTY.md"; sourceTree = SOURCE_ROOT; };
-		0DF817B07E31CFFCF54E6CAE = { isa = PBXBuildFile; fileRef = CD80EDA102BD8B96A9914368; };
-		57827C0DF64BB3963AEC96F3 = { isa = PBXFileReference; lastKnownFileType = text; path = "../../CHANGELOG.md"; sourceTree = SOURCE_ROOT; };
-		03B5563EF2DD1FD81D8D7F1A = { isa = PBXBuildFile; fileRef = 57827C0DF64BB3963AEC96F3; };
-		953F0E4076698EEEEEF38320 = { isa = XCSwiftPackageProductDependency; package = BC4A71180870F7945155FBB0; productName = BiliModels; };
-		288C288758F6B9EC3A689C6E = { isa = PBXBuildFile; productRef = 953F0E4076698EEEEEF38320; };
-		F0A50D51DB52882451DDD0F0 = { isa = XCSwiftPackageProductDependency; package = BC4A71180870F7945155FBB0; productName = BiliNetworking; };
-		E2C27246E551C60D42C6338B = { isa = PBXBuildFile; productRef = F0A50D51DB52882451DDD0F0; };
-		19CCBCB9A6C0A3FC2E0B57D1 = { isa = XCSwiftPackageProductDependency; package = BC4A71180870F7945155FBB0; productName = BiliPlayback; };
-		242DAEEA232675F4CB47FBF6 = { isa = PBXBuildFile; productRef = 19CCBCB9A6C0A3FC2E0B57D1; };
-		BC4A71180870F7945155FBB0 = { isa = XCLocalSwiftPackageReference; relativePath = ../../Vendor/BiliKitCore; };
-		05C9AA475CE77C9428DC69AA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests/MobileSmokeTests.swift; sourceTree = SOURCE_ROOT; };
-		746629965A4FF5F5BB45B3B5 = { isa = PBXBuildFile; fileRef = 05C9AA475CE77C9428DC69AA; };
-		93E46A602338E07A8524AEF6 = { isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilibiliSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		760DD443C1DF2461277A1FDF = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (746629965A4FF5F5BB45B3B5,); runOnlyForDeploymentPostprocessing = 0; };
-		F6301EAD2AC55A883FB1AF3A = { isa = PBXContainerItemProxy; containerPortal = 244210E48437B6556980A702; proxyType = 1; remoteGlobalIDString = 34A04005BCAF206EEC990BD9; remoteInfo = BilibiliSpeed; };
-		8DA290C1E75835394B937A40 = { isa = PBXTargetDependency; target = 34A04005BCAF206EEC990BD9; targetProxy = F6301EAD2AC55A883FB1AF3A; };
-		4EA0BBFB4641B4E941FBF077 = { isa = PBXNativeTarget; buildConfigurationList = 3DA41B28AE8CC11ED1C9F917; buildPhases = (760DD443C1DF2461277A1FDF,); buildRules = (); dependencies = (8DA290C1E75835394B937A40,); name = BilibiliSpeedUITests; productName = BilibiliSpeedUITests; productReference = 93E46A602338E07A8524AEF6; productType = "com.apple.product-type.bundle.ui-testing"; };
-		529836CB67897D5EB3992509 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS.UITests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_TARGET_NAME = BilibiliSpeed; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = 5.0; ENABLE_TESTING_SEARCH_PATHS = YES; }; };
-		C47A50CDFED4402F09C67EE8 = { isa = XCBuildConfiguration; name = Release; buildSettings = { CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS.UITests; PRODUCT_NAME = "$(TARGET_NAME)"; TEST_TARGET_NAME = BilibiliSpeed; TARGETED_DEVICE_FAMILY = "1,2"; SWIFT_VERSION = 5.0; ENABLE_TESTING_SEARCH_PATHS = YES; }; };
-		3DA41B28AE8CC11ED1C9F917 = { isa = XCConfigurationList; buildConfigurations = (529836CB67897D5EB3992509,C47A50CDFED4402F09C67EE8,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		A8792157CB4F27FB949C035F = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BilibiliSpeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A3E27B8CA818264D75C8D81 = { isa = PBXGroup; children = (A8792157CB4F27FB949C035F,93E46A602338E07A8524AEF6,); name = Products; sourceTree = "<group>"; };
-		AD936FCBED631FA67E05C3EA = { isa = PBXGroup; children = (05C9AA475CE77C9428DC69AA,D66389BB6C3D0042111B3C6F,AB3841BC87C3D2E8CE4BA757,41A2A9140F9001C324332602,95815126B961387DB2F74F95,FC7F2613C3DBEACF55E023EC,7D1B7D6CCF52EAE4E043451A,46B8885D60C9E882112DD690,E495A96E92C24794533704FB,A01805F04BE9FD413AA6EE7A,0F157C12401C80BCEBED9367,044167A00E0081F17358769B,17367235AC176205F689AC1C,8734354A283A00F18FC62A83,FF6B1107C40B55B394B4A583,DAE395773BFED0616EBC239A,C93677C4A4234DEF89406FCB,28CEAA38F70122836EA51A23,3B98837209AEEC75D43F80DD,551A1F2AEB3735C34973456F,345FEF2ADC4FF8A54B23A862,2B599F4E117745EEFCBE2AF5,2C69A001E63F81EB4D9E82C7,AFC6436A995FB8BFAD5190EF,3AABAF852C56AFB9E74DBDC2,F87A41C2023452BD45C83819,26BF883486A790003280EF4C,91B2FDAA65D0032BA4BB3A66,C579A5AE92A34FEB07B7CDD6,99242C62EB6FEA307D5914D9,882BEA01F7D0AECE7545354E,052B903772388BF5F2AC182A,6E01678867077901D2B7E2A5,CFCB3937499DFB7A7980ECAE,73E6ABFB8DE399849D69F6FB,8F4EC9B9FE1F707D1B67F7E9,A006B54CBBA3BD64EBD0A8B5,8641B18D1D71583934D39C3A,0C4A16C43D14D4E9C33F0077,4E774C26953ACDD1E5A77507,A5863E3398FEA702D3EF2931,007EBFAB9BEF2577E47BB1FA,D197AAF6F37879305F50A06D,CE107B048E5BC1C90AC5620F,D93F8587D1FC3CF6BF1F866A,E7144546A65CBB77D5AF4D84,C28D0A07F4B4F69CC69DCACC,763F98ACDEC4BCE74F039FD3,8CB78ECEE932457107AB9523,68B53D4AB8FF1BEB1FF0BCFC,91AAFB7C343470BA0B9DB988,E74EBD33C605E0814171844E,5E5EC4B101316FC8DF8BCA2D,B1741025F008A299C2F95BF4,84746213D56067A55E5D47A7,AF696553DB770E1A52F4F672,DEE68DBA38BA364B60991A49,504F8EC035FCC32BE4ECA073,6C1657D0168A4163F07CD63B,ACE5BC4005A688BC25058187,8416915EE84DB3F6E62A61C6,C4F04AC2D1F89139105F8D15,2F145BF103F466B158ED686A,3AAEDCD183B3AD72B314EE4A,642CEE680C6AEBC5DC44BD92,51D8C0A09C47FB6D573A4802,15C7881CB336920A15876BAC,90AA134CC0D38732471C3C7B,21EA211DC10ABBE57256F13D,0C299F368686D7C3AF7EE31B,3EDD2D049FB04038F1BB32A4,93C85B514576D21151FADB71,CD80EDA102BD8B96A9914368,57827C0DF64BB3963AEC96F3,0A3E27B8CA818264D75C8D81,); sourceTree = "<group>"; };
-		878A52FC5FF6A57D50B7B870 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (E103756AFA669CEDB2EF2A3D,D879EDFE5FFD7CDC92CC6BB6,42708F43EF27C810010A7375,4BBAA70169B551F32C336383,867172CA0D2ADC4282E5823F,BD1BBE9B7A42D83E6F7990C5,91FE1B977526D8DF9AB12DCA,426FFE888632901E9A057564,D91F70A8AF207BAEA649DCC8,13E318A5F3E2DC9C48DFA830,3E3BA0ADC66336B640989661,1065784069258CB6EA568CBA,AFFD3DE9B0DA699FE85BC847,B0A8259CE1C3BF0352745137,F077D0279A03D6BB164AEC47,B7E3157CAE18E2C196D7FC69,C37A39D074E8C64712498BDF,DEC13944B14ED5302364FF5F,5FD587C8073AF4139554BC33,F7183FEBA95E2E89D6BFA70F,305814DABE98A9EC8DBD56CA,63CD427F2FBAB5D8139C9A6B,C41F2E68C508D97873BB0422,E5BC50BFC90B4FCB79B484C4,435ABB2A1F99BD5183E1E0F8,8A0E2BBE875012E1E4D350CD,5CD75E728FF0915A9D71BAEF,911D80119E7A27B46A385F73,1E6D42EF398DCE428AC2C31B,63FB03B81C7525B3CD49D543,F1829965BE252DAFBF7EA002,26395838477187FBED7AE299,0B82F631B22B2CAB0509B809,F7B6D476C5FF6726085ABFB6,8F51B58FB6AC72C50502B7BF,CA43723A19ADEFF1ECCF5F9C,AB92A483337532872723C3EE,B1B07A1E9024C290B06F3188,3764518B756794241D0845D3,F4F8E8F4834768842EA3B0C7,B854D1A2453CD8EFDA10557F,33C14B7D59AAF6D4426301CB,3992160A7A0F175D277A3221,3B1210F97E634DAEA3A6C06B,73065EB7D6B7AD007F800310,44814DD5C6FE4F34DC0A80D4,EEDFD682FC61028BD9006CBF,4755E67EC223DEFD7D3378C2,E21565AF0105624107E77DDA,F736272A2519AE5019A53493,31D4A655A7BE57189F52BA8E,58DFE8875041CCAA68FF749B,D433264DC7EA0FEC313F8635,6052832E9B20B0827DC695E5,15CC4A7031EBE3B966380045,1EC6FF87D1B9D3DF2EC3484E,B2A92D1C46C25414BA35CFCC,E4E61D763AE49B03138A0D9F,C30ADD9536A63CE95FB01343,EF5E2F11A9EC3D5CECF9B05D,917C68442D1E3BC6CDE99D61,741E76A9518F89418D3C98ED,A36A208596D3511A419C607C,2A5732D3D3D5F9EC816A1D61,720BC912A630C1D3364522E4,CC24DD3F3CE095945FDCD9EA,11C673E423E92F6E4FD52250,575FB4E5DE24E53727EB9BDA,); runOnlyForDeploymentPostprocessing = 0; };
-		41D311A605520FC7B8B9A980 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (0561B6B779527A2FA058B6AB,2452B9A7AF0E645AAF318091,592FFE00B0873774A1DA154F,0DF817B07E31CFFCF54E6CAE,03B5563EF2DD1FD81D8D7F1A,); runOnlyForDeploymentPostprocessing = 0; };
-		E2AA269EB967A8853A258BFA = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (288C288758F6B9EC3A689C6E,E2C27246E551C60D42C6338B,242DAEEA232675F4CB47FBF6,); runOnlyForDeploymentPostprocessing = 0; };
-		34A04005BCAF206EEC990BD9 = { isa = PBXNativeTarget; buildConfigurationList = 4A807E8A027297B0B93701FB; buildPhases = (878A52FC5FF6A57D50B7B870,E2AA269EB967A8853A258BFA,41D311A605520FC7B8B9A980,); buildRules = (); dependencies = (); name = BilibiliSpeed; packageProductDependencies = (953F0E4076698EEEEEF38320,F0A50D51DB52882451DDD0F0,19CCBCB9A6C0A3FC2E0B57D1,); productName = BilibiliSpeed; productReference = A8792157CB4F27FB949C035F; productType = "com.apple.product-type.application"; };
-		73EBF6644258C120893E685D = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "5.0"; IPHONEOS_DEPLOYMENT_TARGET = "26.0"; SDKROOT = "iphoneos"; SWIFT_STRICT_CONCURRENCY = "minimal"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; DEBUG_INFORMATION_FORMAT = "dwarf"; }; name = Debug; };
-		6C7EFF6369083C8E1F2B1994 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "BilibiliSpeed"; PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevlog.BilibiliSpeed.iOS"; INFOPLIST_FILE = "Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SUPPORTS_MACCATALYST = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; DEBUG_INFORMATION_FORMAT = "dwarf"; }; name = Debug; };
-		0B0C687DF8B6B8DC790B519C = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = "YES"; SWIFT_VERSION = "5.0"; IPHONEOS_DEPLOYMENT_TARGET = "26.0"; SDKROOT = "iphoneos"; SWIFT_STRICT_CONCURRENCY = "minimal"; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
-		DD75E2CB1C510A828AC72D96 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = "BilibiliSpeed"; PRODUCT_BUNDLE_IDENTIFIER = "com.iosdevlog.BilibiliSpeed.iOS"; INFOPLIST_FILE = "Info.plist"; GENERATE_INFOPLIST_FILE = "NO"; CODE_SIGN_STYLE = "Automatic"; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon"; ENABLE_PREVIEWS = "YES"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SUPPORTS_MACCATALYST = "NO"; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
-		B4E10CAA9C5E22150B71559C = { isa = XCConfigurationList; buildConfigurations = (73EBF6644258C120893E685D,0B0C687DF8B6B8DC790B519C,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		4A807E8A027297B0B93701FB = { isa = XCConfigurationList; buildConfigurations = (6C7EFF6369083C8E1F2B1994,DD75E2CB1C510A828AC72D96,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
-		244210E48437B6556980A702 = { isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2710; }; buildConfigurationList = B4E10CAA9C5E22150B71559C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en,Base,"zh-Hans",); mainGroup = AD936FCBED631FA67E05C3EA; packageReferences = (BC4A71180870F7945155FBB0,); productRefGroup = 0A3E27B8CA818264D75C8D81; projectDirPath = ""; projectRoot = ""; targets = (34A04005BCAF206EEC990BD9,4EA0BBFB4641B4E941FBF077,); };
-}; rootObject = 244210E48437B6556980A702; }
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B5563EF2DD1FD81D8D7F1A /* ../../CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 57827C0DF64BB3963AEC96F3 /* ../../CHANGELOG.md */; };
+		0561B6B779527A2FA058B6AB /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C299F368686D7C3AF7EE31B /* Resources/Assets.xcassets */; };
+		0B82F631B22B2CAB0509B809 /* ../../Sources/BiliGlass/MP4Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB3937499DFB7A7980ECAE /* ../../Sources/BiliGlass/MP4Compatibility.swift */; };
+		0DF817B07E31CFFCF54E6CAE /* Resources/THIRD_PARTY.md in Resources */ = {isa = PBXBuildFile; fileRef = CD80EDA102BD8B96A9914368 /* Resources/THIRD_PARTY.md */; };
+		1065784069258CB6EA568CBA /* ../../Sources/BiliGlass/CommentVideoLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17367235AC176205F689AC1C /* ../../Sources/BiliGlass/CommentVideoLink.swift */; };
+		11C673E423E92F6E4FD52250 /* Sources/MobileVideoControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA134CC0D38732471C3C7B /* Sources/MobileVideoControls.swift */; };
+		13E318A5F3E2DC9C48DFA830 /* ../../Sources/BiliGlass/CommentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F157C12401C80BCEBED9367 /* ../../Sources/BiliGlass/CommentPage.swift */; };
+		15CC4A7031EBE3B966380045 /* Sources/MobileDanmakuCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF696553DB770E1A52F4F672 /* Sources/MobileDanmakuCanvas.swift */; };
+		1E6D42EF398DCE428AC2C31B /* ../../Sources/BiliGlass/CDNSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99242C62EB6FEA307D5914D9 /* ../../Sources/BiliGlass/CDNSelection.swift */; };
+		1EC6FF87D1B9D3DF2EC3484E /* Sources/MobileDanmakuSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE68DBA38BA364B60991A49 /* Sources/MobileDanmakuSettings.swift */; };
+		242DAEEA232675F4CB47FBF6 /* BiliPlayback in Frameworks */ = {isa = PBXBuildFile; productRef = 19CCBCB9A6C0A3FC2E0B57D1 /* BiliPlayback */; };
+		2452B9A7AF0E645AAF318091 /* Resources/LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3EDD2D049FB04038F1BB32A4 /* Resources/LICENSE.txt */; };
+		26395838477187FBED7AE299 /* ../../Sources/BiliGlass/VideoSignalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E01678867077901D2B7E2A5 /* ../../Sources/BiliGlass/VideoSignalling.swift */; };
+		288C288758F6B9EC3A689C6E /* BiliModels in Frameworks */ = {isa = PBXBuildFile; productRef = 953F0E4076698EEEEEF38320 /* BiliModels */; };
+		2A5732D3D3D5F9EC816A1D61 /* Sources/MobileSpeedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642CEE680C6AEBC5DC44BD92 /* Sources/MobileSpeedPicker.swift */; };
+		305814DABE98A9EC8DBD56CA /* ../../Sources/BiliGlass/Messaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B599F4E117745EEFCBE2AF5 /* ../../Sources/BiliGlass/Messaging.swift */; };
+		31D4A655A7BE57189F52BA8E /* Sources/MobileActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74EBD33C605E0814171844E /* Sources/MobileActionBar.swift */; };
+		33C14B7D59AAF6D4426301CB /* ../../Sources/BiliGlass/DanmakuCloudRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = D197AAF6F37879305F50A06D /* ../../Sources/BiliGlass/DanmakuCloudRules.swift */; };
+		3764518B756794241D0845D3 /* ../../Sources/BiliGlass/EmojiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E774C26953ACDD1E5A77507 /* ../../Sources/BiliGlass/EmojiPicker.swift */; };
+		3992160A7A0F175D277A3221 /* ../../Sources/BiliGlass/DanmakuTextBitmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE107B048E5BC1C90AC5620F /* ../../Sources/BiliGlass/DanmakuTextBitmap.swift */; };
+		3B1210F97E634DAEA3A6C06B /* ../../Sources/BiliGlass/DanmakuSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F8587D1FC3CF6BF1F866A /* ../../Sources/BiliGlass/DanmakuSettings.swift */; };
+		3E3BA0ADC66336B640989661 /* ../../Sources/BiliGlass/CommentText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044167A00E0081F17358769B /* ../../Sources/BiliGlass/CommentText.swift */; };
+		426FFE888632901E9A057564 /* ../../Sources/BiliGlass/VideoActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E495A96E92C24794533704FB /* ../../Sources/BiliGlass/VideoActions.swift */; };
+		42708F43EF27C810010A7375 /* ../../Sources/BiliGlass/InterfaceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A2A9140F9001C324332602 /* ../../Sources/BiliGlass/InterfaceMotion.swift */; };
+		435ABB2A1F99BD5183E1E0F8 /* ../../Sources/BiliGlass/ThumbnailCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A41C2023452BD45C83819 /* ../../Sources/BiliGlass/ThumbnailCache.swift */; };
+		44814DD5C6FE4F34DC0A80D4 /* ../../Sources/BiliGlass/DynamicAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28D0A07F4B4F69CC69DCACC /* ../../Sources/BiliGlass/DynamicAttachment.swift */; };
+		4755E67EC223DEFD7D3378C2 /* ../../Sources/BiliGlass/SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB78ECEE932457107AB9523 /* ../../Sources/BiliGlass/SVGPath.swift */; };
+		4BBAA70169B551F32C336383 /* ../../Sources/BiliGlass/API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95815126B961387DB2F74F95 /* ../../Sources/BiliGlass/API.swift */; };
+		575FB4E5DE24E53727EB9BDA /* Sources/MobileZoomableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EA211DC10ABBE57256F13D /* Sources/MobileZoomableImage.swift */; };
+		58DFE8875041CCAA68FF749B /* Sources/MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5EC4B101316FC8DF8BCA2D /* Sources/MobileApp.swift */; };
+		592FFE00B0873774A1DA154F /* Resources/BiliKit-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93C85B514576D21151FADB71 /* Resources/BiliKit-LICENSE.txt */; };
+		5CD75E728FF0915A9D71BAEF /* ../../Sources/BiliGlass/Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B2FDAA65D0032BA4BB3A66 /* ../../Sources/BiliGlass/Player.swift */; };
+		5FD587C8073AF4139554BC33 /* ../../Sources/BiliGlass/NativeSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551A1F2AEB3735C34973456F /* ../../Sources/BiliGlass/NativeSpace.swift */; };
+		6052832E9B20B0827DC695E5 /* Sources/MobileCommunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84746213D56067A55E5D47A7 /* Sources/MobileCommunity.swift */; };
+		63CD427F2FBAB5D8139C9A6B /* ../../Sources/BiliGlass/ImageUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69A001E63F81EB4D9E82C7 /* ../../Sources/BiliGlass/ImageUpload.swift */; };
+		63FB03B81C7525B3CD49D543 /* ../../Sources/BiliGlass/ParallelVideoStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882BEA01F7D0AECE7545354E /* ../../Sources/BiliGlass/ParallelVideoStream.swift */; };
+		720BC912A630C1D3364522E4 /* Sources/MobileTablet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D8C0A09C47FB6D573A4802 /* Sources/MobileTablet.swift */; };
+		73065EB7D6B7AD007F800310 /* ../../Sources/BiliGlass/BiliImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7144546A65CBB77D5AF4D84 /* ../../Sources/BiliGlass/BiliImageURL.swift */; };
+		741E76A9518F89418D3C98ED /* Sources/MobilePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F145BF103F466B158ED686A /* Sources/MobilePlayer.swift */; };
+		746629965A4FF5F5BB45B3B5 /* UITests/MobileSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C9AA475CE77C9428DC69AA /* UITests/MobileSmokeTests.swift */; };
+		867172CA0D2ADC4282E5823F /* ../../Sources/BiliGlass/AppCoinAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F2613C3DBEACF55E023EC /* ../../Sources/BiliGlass/AppCoinAuthorization.swift */; };
+		8A0E2BBE875012E1E4D350CD /* ../../Sources/BiliGlass/TaskDeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BF883486A790003280EF4C /* ../../Sources/BiliGlass/TaskDeadline.swift */; };
+		8F51B58FB6AC72C50502B7BF /* ../../Sources/BiliGlass/Downloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EC9B9FE1F707D1B67F7E9 /* ../../Sources/BiliGlass/Downloads.swift */; };
+		911D80119E7A27B46A385F73 /* ../../Sources/BiliGlass/PlaybackProgressDeadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C579A5AE92A34FEB07B7CDD6 /* ../../Sources/BiliGlass/PlaybackProgressDeadline.swift */; };
+		917C68442D1E3BC6CDE99D61 /* Sources/MobileNowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F04AC2D1F89139105F8D15 /* Sources/MobileNowPlaying.swift */; };
+		91FE1B977526D8DF9AB12DCA /* ../../Sources/BiliGlass/Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B8885D60C9E882112DD690 /* ../../Sources/BiliGlass/Community.swift */; };
+		A36A208596D3511A419C607C /* Sources/MobileSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAEDCD183B3AD72B314EE4A /* Sources/MobileSocial.swift */; };
+		AB92A483337532872723C3EE /* ../../Sources/BiliGlass/DownloadPublication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641B18D1D71583934D39C3A /* ../../Sources/BiliGlass/DownloadPublication.swift */; };
+		AFFD3DE9B0DA699FE85BC847 /* ../../Sources/BiliGlass/VideoExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8734354A283A00F18FC62A83 /* ../../Sources/BiliGlass/VideoExtras.swift */; };
+		B0A8259CE1C3BF0352745137 /* ../../Sources/BiliGlass/VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B1107C40B55B394B4A583 /* ../../Sources/BiliGlass/VideoPreview.swift */; };
+		B1B07A1E9024C290B06F3188 /* ../../Sources/BiliGlass/NotificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A16C43D14D4E9C33F0077 /* ../../Sources/BiliGlass/NotificationModels.swift */; };
+		B2A92D1C46C25414BA35CFCC /* Sources/MobileFavoriteFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F8EC035FCC32BE4ECA073 /* Sources/MobileFavoriteFixture.swift */; };
+		B7E3157CAE18E2C196D7FC69 /* ../../Sources/BiliGlass/Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93677C4A4234DEF89406FCB /* ../../Sources/BiliGlass/Regions.swift */; };
+		B854D1A2453CD8EFDA10557F /* ../../Sources/BiliGlass/DanmakuLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007EBFAB9BEF2577E47BB1FA /* ../../Sources/BiliGlass/DanmakuLayout.swift */; };
+		BD1BBE9B7A42D83E6F7990C5 /* ../../Sources/BiliGlass/LoginRestoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B7D6CCF52EAE4E043451A /* ../../Sources/BiliGlass/LoginRestoration.swift */; };
+		C30ADD9536A63CE95FB01343 /* Sources/MobileMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5BC4005A688BC25058187 /* Sources/MobileMaterials.swift */; };
+		C37A39D074E8C64712498BDF /* ../../Sources/BiliGlass/AccountHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CEAA38F70122836EA51A23 /* ../../Sources/BiliGlass/AccountHistory.swift */; };
+		C41F2E68C508D97873BB0422 /* ../../Sources/BiliGlass/WatchHistorySync.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6436A995FB8BFAD5190EF /* ../../Sources/BiliGlass/WatchHistorySync.swift */; };
+		CA43723A19ADEFF1ECCF5F9C /* ../../Sources/BiliGlass/DownloadPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006B54CBBA3BD64EBD0A8B5 /* ../../Sources/BiliGlass/DownloadPiece.swift */; };
+		CC24DD3F3CE095945FDCD9EA /* Sources/MobileUIFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C7881CB336920A15876BAC /* Sources/MobileUIFixture.swift */; };
+		D433264DC7EA0FEC313F8635 /* Sources/MobileBrowse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1741025F008A299C2F95BF4 /* Sources/MobileBrowse.swift */; };
+		D879EDFE5FFD7CDC92CC6BB6 /* ../../Sources/BiliGlass/PlaybackSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3841BC87C3D2E8CE4BA757 /* ../../Sources/BiliGlass/PlaybackSequence.swift */; };
+		D91F70A8AF207BAEA649DCC8 /* ../../Sources/BiliGlass/OfficialChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01805F04BE9FD413AA6EE7A /* ../../Sources/BiliGlass/OfficialChallenge.swift */; };
+		DEC13944B14ED5302364FF5F /* ../../Sources/BiliGlass/MessageShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B98837209AEEC75D43F80DD /* ../../Sources/BiliGlass/MessageShare.swift */; };
+		E103756AFA669CEDB2EF2A3D /* ../../Sources/BiliGlass/BrowsePreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66389BB6C3D0042111B3C6F /* ../../Sources/BiliGlass/BrowsePreferences.swift */; };
+		E21565AF0105624107E77DDA /* ../../Sources/BiliGlass/SpecialDanmaku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B53D4AB8FF1BEB1FF0BCFC /* ../../Sources/BiliGlass/SpecialDanmaku.swift */; };
+		E2C27246E551C60D42C6338B /* BiliNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = F0A50D51DB52882451DDD0F0 /* BiliNetworking */; };
+		E4E61D763AE49B03138A0D9F /* Sources/MobileInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1657D0168A4163F07CD63B /* Sources/MobileInbox.swift */; };
+		E5BC50BFC90B4FCB79B484C4 /* ../../Sources/BiliGlass/AppDateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AABAF852C56AFB9E74DBDC2 /* ../../Sources/BiliGlass/AppDateFormat.swift */; };
+		EEDFD682FC61028BD9006CBF /* ../../Sources/BiliGlass/BAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763F98ACDEC4BCE74F039FD3 /* ../../Sources/BiliGlass/BAS.swift */; };
+		EF5E2F11A9EC3D5CECF9B05D /* Sources/MobileNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416915EE84DB3F6E62A61C6 /* Sources/MobileNavigation.swift */; };
+		F077D0279A03D6BB164AEC47 /* ../../Sources/BiliGlass/SearchFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE395773BFED0616EBC239A /* ../../Sources/BiliGlass/SearchFeatures.swift */; };
+		F1829965BE252DAFBF7EA002 /* ../../Sources/BiliGlass/PlaybackDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052B903772388BF5F2AC182A /* ../../Sources/BiliGlass/PlaybackDiskCache.swift */; };
+		F4F8E8F4834768842EA3B0C7 /* ../../Sources/BiliGlass/ConversationTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5863E3398FEA702D3EF2931 /* ../../Sources/BiliGlass/ConversationTimeline.swift */; };
+		F7183FEBA95E2E89D6BFA70F /* ../../Sources/BiliGlass/DynamicPublishing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345FEF2ADC4FF8A54B23A862 /* ../../Sources/BiliGlass/DynamicPublishing.swift */; };
+		F736272A2519AE5019A53493 /* Sources/MobileAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AAFB7C343470BA0B9DB988 /* Sources/MobileAccount.swift */; };
+		F7B6D476C5FF6726085ABFB6 /* ../../Sources/BiliGlass/DanmakuModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E6ABFB8DE399849D69F6FB /* ../../Sources/BiliGlass/DanmakuModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6301EAD2AC55A883FB1AF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244210E48437B6556980A702 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A04005BCAF206EEC990BD9;
+			remoteInfo = BilibiliSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007EBFAB9BEF2577E47BB1FA /* ../../Sources/BiliGlass/DanmakuLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DanmakuLayout.swift; sourceTree = SOURCE_ROOT; };
+		044167A00E0081F17358769B /* ../../Sources/BiliGlass/CommentText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/CommentText.swift; sourceTree = SOURCE_ROOT; };
+		052B903772388BF5F2AC182A /* ../../Sources/BiliGlass/PlaybackDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/PlaybackDiskCache.swift; sourceTree = SOURCE_ROOT; };
+		05C9AA475CE77C9428DC69AA /* UITests/MobileSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests/MobileSmokeTests.swift; sourceTree = SOURCE_ROOT; };
+		0C299F368686D7C3AF7EE31B /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		0C4A16C43D14D4E9C33F0077 /* ../../Sources/BiliGlass/NotificationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/NotificationModels.swift; sourceTree = SOURCE_ROOT; };
+		0F157C12401C80BCEBED9367 /* ../../Sources/BiliGlass/CommentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/CommentPage.swift; sourceTree = SOURCE_ROOT; };
+		15C7881CB336920A15876BAC /* Sources/MobileUIFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileUIFixture.swift; sourceTree = SOURCE_ROOT; };
+		17367235AC176205F689AC1C /* ../../Sources/BiliGlass/CommentVideoLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/CommentVideoLink.swift; sourceTree = SOURCE_ROOT; };
+		21EA211DC10ABBE57256F13D /* Sources/MobileZoomableImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileZoomableImage.swift; sourceTree = SOURCE_ROOT; };
+		26BF883486A790003280EF4C /* ../../Sources/BiliGlass/TaskDeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/TaskDeadline.swift; sourceTree = SOURCE_ROOT; };
+		28CEAA38F70122836EA51A23 /* ../../Sources/BiliGlass/AccountHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/AccountHistory.swift; sourceTree = SOURCE_ROOT; };
+		2B599F4E117745EEFCBE2AF5 /* ../../Sources/BiliGlass/Messaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/Messaging.swift; sourceTree = SOURCE_ROOT; };
+		2C69A001E63F81EB4D9E82C7 /* ../../Sources/BiliGlass/ImageUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/ImageUpload.swift; sourceTree = SOURCE_ROOT; };
+		2F145BF103F466B158ED686A /* Sources/MobilePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobilePlayer.swift; sourceTree = SOURCE_ROOT; };
+		345FEF2ADC4FF8A54B23A862 /* ../../Sources/BiliGlass/DynamicPublishing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DynamicPublishing.swift; sourceTree = SOURCE_ROOT; };
+		3AABAF852C56AFB9E74DBDC2 /* ../../Sources/BiliGlass/AppDateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/AppDateFormat.swift; sourceTree = SOURCE_ROOT; };
+		3AAEDCD183B3AD72B314EE4A /* Sources/MobileSocial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileSocial.swift; sourceTree = SOURCE_ROOT; };
+		3B98837209AEEC75D43F80DD /* ../../Sources/BiliGlass/MessageShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/MessageShare.swift; sourceTree = SOURCE_ROOT; };
+		3EDD2D049FB04038F1BB32A4 /* Resources/LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		41A2A9140F9001C324332602 /* ../../Sources/BiliGlass/InterfaceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/InterfaceMotion.swift; sourceTree = SOURCE_ROOT; };
+		46B8885D60C9E882112DD690 /* ../../Sources/BiliGlass/Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/Community.swift; sourceTree = SOURCE_ROOT; };
+		4E774C26953ACDD1E5A77507 /* ../../Sources/BiliGlass/EmojiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/EmojiPicker.swift; sourceTree = SOURCE_ROOT; };
+		504F8EC035FCC32BE4ECA073 /* Sources/MobileFavoriteFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileFavoriteFixture.swift; sourceTree = SOURCE_ROOT; };
+		51D8C0A09C47FB6D573A4802 /* Sources/MobileTablet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileTablet.swift; sourceTree = SOURCE_ROOT; };
+		551A1F2AEB3735C34973456F /* ../../Sources/BiliGlass/NativeSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/NativeSpace.swift; sourceTree = SOURCE_ROOT; };
+		57827C0DF64BB3963AEC96F3 /* ../../CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = ../../CHANGELOG.md; sourceTree = SOURCE_ROOT; };
+		5E5EC4B101316FC8DF8BCA2D /* Sources/MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileApp.swift; sourceTree = SOURCE_ROOT; };
+		642CEE680C6AEBC5DC44BD92 /* Sources/MobileSpeedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileSpeedPicker.swift; sourceTree = SOURCE_ROOT; };
+		68B53D4AB8FF1BEB1FF0BCFC /* ../../Sources/BiliGlass/SpecialDanmaku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/SpecialDanmaku.swift; sourceTree = SOURCE_ROOT; };
+		6C1657D0168A4163F07CD63B /* Sources/MobileInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileInbox.swift; sourceTree = SOURCE_ROOT; };
+		6E01678867077901D2B7E2A5 /* ../../Sources/BiliGlass/VideoSignalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/VideoSignalling.swift; sourceTree = SOURCE_ROOT; };
+		73E6ABFB8DE399849D69F6FB /* ../../Sources/BiliGlass/DanmakuModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DanmakuModels.swift; sourceTree = SOURCE_ROOT; };
+		763F98ACDEC4BCE74F039FD3 /* ../../Sources/BiliGlass/BAS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/BAS.swift; sourceTree = SOURCE_ROOT; };
+		7D1B7D6CCF52EAE4E043451A /* ../../Sources/BiliGlass/LoginRestoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/LoginRestoration.swift; sourceTree = SOURCE_ROOT; };
+		8416915EE84DB3F6E62A61C6 /* Sources/MobileNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileNavigation.swift; sourceTree = SOURCE_ROOT; };
+		84746213D56067A55E5D47A7 /* Sources/MobileCommunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileCommunity.swift; sourceTree = SOURCE_ROOT; };
+		8641B18D1D71583934D39C3A /* ../../Sources/BiliGlass/DownloadPublication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DownloadPublication.swift; sourceTree = SOURCE_ROOT; };
+		8734354A283A00F18FC62A83 /* ../../Sources/BiliGlass/VideoExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/VideoExtras.swift; sourceTree = SOURCE_ROOT; };
+		882BEA01F7D0AECE7545354E /* ../../Sources/BiliGlass/ParallelVideoStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/ParallelVideoStream.swift; sourceTree = SOURCE_ROOT; };
+		8CB78ECEE932457107AB9523 /* ../../Sources/BiliGlass/SVGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/SVGPath.swift; sourceTree = SOURCE_ROOT; };
+		8F4EC9B9FE1F707D1B67F7E9 /* ../../Sources/BiliGlass/Downloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/Downloads.swift; sourceTree = SOURCE_ROOT; };
+		90AA134CC0D38732471C3C7B /* Sources/MobileVideoControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileVideoControls.swift; sourceTree = SOURCE_ROOT; };
+		91AAFB7C343470BA0B9DB988 /* Sources/MobileAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileAccount.swift; sourceTree = SOURCE_ROOT; };
+		91B2FDAA65D0032BA4BB3A66 /* ../../Sources/BiliGlass/Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/Player.swift; sourceTree = SOURCE_ROOT; };
+		93C85B514576D21151FADB71 /* Resources/BiliKit-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Resources/BiliKit-LICENSE.txt"; sourceTree = SOURCE_ROOT; };
+		93E46A602338E07A8524AEF6 /* BilibiliSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BilibiliSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95815126B961387DB2F74F95 /* ../../Sources/BiliGlass/API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/API.swift; sourceTree = SOURCE_ROOT; };
+		99242C62EB6FEA307D5914D9 /* ../../Sources/BiliGlass/CDNSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/CDNSelection.swift; sourceTree = SOURCE_ROOT; };
+		A006B54CBBA3BD64EBD0A8B5 /* ../../Sources/BiliGlass/DownloadPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DownloadPiece.swift; sourceTree = SOURCE_ROOT; };
+		A01805F04BE9FD413AA6EE7A /* ../../Sources/BiliGlass/OfficialChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/OfficialChallenge.swift; sourceTree = SOURCE_ROOT; };
+		A5863E3398FEA702D3EF2931 /* ../../Sources/BiliGlass/ConversationTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/ConversationTimeline.swift; sourceTree = SOURCE_ROOT; };
+		A8792157CB4F27FB949C035F /* BilibiliSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BilibiliSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3841BC87C3D2E8CE4BA757 /* ../../Sources/BiliGlass/PlaybackSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/PlaybackSequence.swift; sourceTree = SOURCE_ROOT; };
+		ACE5BC4005A688BC25058187 /* Sources/MobileMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileMaterials.swift; sourceTree = SOURCE_ROOT; };
+		AF696553DB770E1A52F4F672 /* Sources/MobileDanmakuCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileDanmakuCanvas.swift; sourceTree = SOURCE_ROOT; };
+		AFC6436A995FB8BFAD5190EF /* ../../Sources/BiliGlass/WatchHistorySync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/WatchHistorySync.swift; sourceTree = SOURCE_ROOT; };
+		B1741025F008A299C2F95BF4 /* Sources/MobileBrowse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileBrowse.swift; sourceTree = SOURCE_ROOT; };
+		C28D0A07F4B4F69CC69DCACC /* ../../Sources/BiliGlass/DynamicAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DynamicAttachment.swift; sourceTree = SOURCE_ROOT; };
+		C4F04AC2D1F89139105F8D15 /* Sources/MobileNowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileNowPlaying.swift; sourceTree = SOURCE_ROOT; };
+		C579A5AE92A34FEB07B7CDD6 /* ../../Sources/BiliGlass/PlaybackProgressDeadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/PlaybackProgressDeadline.swift; sourceTree = SOURCE_ROOT; };
+		C93677C4A4234DEF89406FCB /* ../../Sources/BiliGlass/Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/Regions.swift; sourceTree = SOURCE_ROOT; };
+		CD80EDA102BD8B96A9914368 /* Resources/THIRD_PARTY.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Resources/THIRD_PARTY.md; sourceTree = SOURCE_ROOT; };
+		CE107B048E5BC1C90AC5620F /* ../../Sources/BiliGlass/DanmakuTextBitmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DanmakuTextBitmap.swift; sourceTree = SOURCE_ROOT; };
+		CFCB3937499DFB7A7980ECAE /* ../../Sources/BiliGlass/MP4Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/MP4Compatibility.swift; sourceTree = SOURCE_ROOT; };
+		D197AAF6F37879305F50A06D /* ../../Sources/BiliGlass/DanmakuCloudRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DanmakuCloudRules.swift; sourceTree = SOURCE_ROOT; };
+		D66389BB6C3D0042111B3C6F /* ../../Sources/BiliGlass/BrowsePreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/BrowsePreferences.swift; sourceTree = SOURCE_ROOT; };
+		D93F8587D1FC3CF6BF1F866A /* ../../Sources/BiliGlass/DanmakuSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/DanmakuSettings.swift; sourceTree = SOURCE_ROOT; };
+		DAE395773BFED0616EBC239A /* ../../Sources/BiliGlass/SearchFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/SearchFeatures.swift; sourceTree = SOURCE_ROOT; };
+		DEE68DBA38BA364B60991A49 /* Sources/MobileDanmakuSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileDanmakuSettings.swift; sourceTree = SOURCE_ROOT; };
+		E495A96E92C24794533704FB /* ../../Sources/BiliGlass/VideoActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/VideoActions.swift; sourceTree = SOURCE_ROOT; };
+		E7144546A65CBB77D5AF4D84 /* ../../Sources/BiliGlass/BiliImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/BiliImageURL.swift; sourceTree = SOURCE_ROOT; };
+		E74EBD33C605E0814171844E /* Sources/MobileActionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/MobileActionBar.swift; sourceTree = SOURCE_ROOT; };
+		F87A41C2023452BD45C83819 /* ../../Sources/BiliGlass/ThumbnailCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/ThumbnailCache.swift; sourceTree = SOURCE_ROOT; };
+		FC7F2613C3DBEACF55E023EC /* ../../Sources/BiliGlass/AppCoinAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/AppCoinAuthorization.swift; sourceTree = SOURCE_ROOT; };
+		FF6B1107C40B55B394B4A583 /* ../../Sources/BiliGlass/VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ../../Sources/BiliGlass/VideoPreview.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2AA269EB967A8853A258BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C288758F6B9EC3A689C6E /* BiliModels in Frameworks */,
+				E2C27246E551C60D42C6338B /* BiliNetworking in Frameworks */,
+				242DAEEA232675F4CB47FBF6 /* BiliPlayback in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3E27B8CA818264D75C8D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8792157CB4F27FB949C035F /* BilibiliSpeed.app */,
+				93E46A602338E07A8524AEF6 /* BilibiliSpeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD936FCBED631FA67E05C3EA = {
+			isa = PBXGroup;
+			children = (
+				05C9AA475CE77C9428DC69AA /* UITests/MobileSmokeTests.swift */,
+				D66389BB6C3D0042111B3C6F /* ../../Sources/BiliGlass/BrowsePreferences.swift */,
+				AB3841BC87C3D2E8CE4BA757 /* ../../Sources/BiliGlass/PlaybackSequence.swift */,
+				41A2A9140F9001C324332602 /* ../../Sources/BiliGlass/InterfaceMotion.swift */,
+				95815126B961387DB2F74F95 /* ../../Sources/BiliGlass/API.swift */,
+				FC7F2613C3DBEACF55E023EC /* ../../Sources/BiliGlass/AppCoinAuthorization.swift */,
+				7D1B7D6CCF52EAE4E043451A /* ../../Sources/BiliGlass/LoginRestoration.swift */,
+				46B8885D60C9E882112DD690 /* ../../Sources/BiliGlass/Community.swift */,
+				E495A96E92C24794533704FB /* ../../Sources/BiliGlass/VideoActions.swift */,
+				A01805F04BE9FD413AA6EE7A /* ../../Sources/BiliGlass/OfficialChallenge.swift */,
+				0F157C12401C80BCEBED9367 /* ../../Sources/BiliGlass/CommentPage.swift */,
+				044167A00E0081F17358769B /* ../../Sources/BiliGlass/CommentText.swift */,
+				17367235AC176205F689AC1C /* ../../Sources/BiliGlass/CommentVideoLink.swift */,
+				8734354A283A00F18FC62A83 /* ../../Sources/BiliGlass/VideoExtras.swift */,
+				FF6B1107C40B55B394B4A583 /* ../../Sources/BiliGlass/VideoPreview.swift */,
+				DAE395773BFED0616EBC239A /* ../../Sources/BiliGlass/SearchFeatures.swift */,
+				C93677C4A4234DEF89406FCB /* ../../Sources/BiliGlass/Regions.swift */,
+				28CEAA38F70122836EA51A23 /* ../../Sources/BiliGlass/AccountHistory.swift */,
+				3B98837209AEEC75D43F80DD /* ../../Sources/BiliGlass/MessageShare.swift */,
+				551A1F2AEB3735C34973456F /* ../../Sources/BiliGlass/NativeSpace.swift */,
+				345FEF2ADC4FF8A54B23A862 /* ../../Sources/BiliGlass/DynamicPublishing.swift */,
+				2B599F4E117745EEFCBE2AF5 /* ../../Sources/BiliGlass/Messaging.swift */,
+				2C69A001E63F81EB4D9E82C7 /* ../../Sources/BiliGlass/ImageUpload.swift */,
+				AFC6436A995FB8BFAD5190EF /* ../../Sources/BiliGlass/WatchHistorySync.swift */,
+				3AABAF852C56AFB9E74DBDC2 /* ../../Sources/BiliGlass/AppDateFormat.swift */,
+				F87A41C2023452BD45C83819 /* ../../Sources/BiliGlass/ThumbnailCache.swift */,
+				26BF883486A790003280EF4C /* ../../Sources/BiliGlass/TaskDeadline.swift */,
+				91B2FDAA65D0032BA4BB3A66 /* ../../Sources/BiliGlass/Player.swift */,
+				C579A5AE92A34FEB07B7CDD6 /* ../../Sources/BiliGlass/PlaybackProgressDeadline.swift */,
+				99242C62EB6FEA307D5914D9 /* ../../Sources/BiliGlass/CDNSelection.swift */,
+				882BEA01F7D0AECE7545354E /* ../../Sources/BiliGlass/ParallelVideoStream.swift */,
+				052B903772388BF5F2AC182A /* ../../Sources/BiliGlass/PlaybackDiskCache.swift */,
+				6E01678867077901D2B7E2A5 /* ../../Sources/BiliGlass/VideoSignalling.swift */,
+				CFCB3937499DFB7A7980ECAE /* ../../Sources/BiliGlass/MP4Compatibility.swift */,
+				73E6ABFB8DE399849D69F6FB /* ../../Sources/BiliGlass/DanmakuModels.swift */,
+				8F4EC9B9FE1F707D1B67F7E9 /* ../../Sources/BiliGlass/Downloads.swift */,
+				A006B54CBBA3BD64EBD0A8B5 /* ../../Sources/BiliGlass/DownloadPiece.swift */,
+				8641B18D1D71583934D39C3A /* ../../Sources/BiliGlass/DownloadPublication.swift */,
+				0C4A16C43D14D4E9C33F0077 /* ../../Sources/BiliGlass/NotificationModels.swift */,
+				4E774C26953ACDD1E5A77507 /* ../../Sources/BiliGlass/EmojiPicker.swift */,
+				A5863E3398FEA702D3EF2931 /* ../../Sources/BiliGlass/ConversationTimeline.swift */,
+				007EBFAB9BEF2577E47BB1FA /* ../../Sources/BiliGlass/DanmakuLayout.swift */,
+				D197AAF6F37879305F50A06D /* ../../Sources/BiliGlass/DanmakuCloudRules.swift */,
+				CE107B048E5BC1C90AC5620F /* ../../Sources/BiliGlass/DanmakuTextBitmap.swift */,
+				D93F8587D1FC3CF6BF1F866A /* ../../Sources/BiliGlass/DanmakuSettings.swift */,
+				E7144546A65CBB77D5AF4D84 /* ../../Sources/BiliGlass/BiliImageURL.swift */,
+				C28D0A07F4B4F69CC69DCACC /* ../../Sources/BiliGlass/DynamicAttachment.swift */,
+				763F98ACDEC4BCE74F039FD3 /* ../../Sources/BiliGlass/BAS.swift */,
+				8CB78ECEE932457107AB9523 /* ../../Sources/BiliGlass/SVGPath.swift */,
+				68B53D4AB8FF1BEB1FF0BCFC /* ../../Sources/BiliGlass/SpecialDanmaku.swift */,
+				91AAFB7C343470BA0B9DB988 /* Sources/MobileAccount.swift */,
+				E74EBD33C605E0814171844E /* Sources/MobileActionBar.swift */,
+				5E5EC4B101316FC8DF8BCA2D /* Sources/MobileApp.swift */,
+				B1741025F008A299C2F95BF4 /* Sources/MobileBrowse.swift */,
+				84746213D56067A55E5D47A7 /* Sources/MobileCommunity.swift */,
+				AF696553DB770E1A52F4F672 /* Sources/MobileDanmakuCanvas.swift */,
+				DEE68DBA38BA364B60991A49 /* Sources/MobileDanmakuSettings.swift */,
+				504F8EC035FCC32BE4ECA073 /* Sources/MobileFavoriteFixture.swift */,
+				6C1657D0168A4163F07CD63B /* Sources/MobileInbox.swift */,
+				ACE5BC4005A688BC25058187 /* Sources/MobileMaterials.swift */,
+				8416915EE84DB3F6E62A61C6 /* Sources/MobileNavigation.swift */,
+				C4F04AC2D1F89139105F8D15 /* Sources/MobileNowPlaying.swift */,
+				2F145BF103F466B158ED686A /* Sources/MobilePlayer.swift */,
+				3AAEDCD183B3AD72B314EE4A /* Sources/MobileSocial.swift */,
+				642CEE680C6AEBC5DC44BD92 /* Sources/MobileSpeedPicker.swift */,
+				51D8C0A09C47FB6D573A4802 /* Sources/MobileTablet.swift */,
+				15C7881CB336920A15876BAC /* Sources/MobileUIFixture.swift */,
+				90AA134CC0D38732471C3C7B /* Sources/MobileVideoControls.swift */,
+				21EA211DC10ABBE57256F13D /* Sources/MobileZoomableImage.swift */,
+				0C299F368686D7C3AF7EE31B /* Resources/Assets.xcassets */,
+				3EDD2D049FB04038F1BB32A4 /* Resources/LICENSE.txt */,
+				93C85B514576D21151FADB71 /* Resources/BiliKit-LICENSE.txt */,
+				CD80EDA102BD8B96A9914368 /* Resources/THIRD_PARTY.md */,
+				57827C0DF64BB3963AEC96F3 /* ../../CHANGELOG.md */,
+				0A3E27B8CA818264D75C8D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A04005BCAF206EEC990BD9 /* BilibiliSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A807E8A027297B0B93701FB /* Build configuration list for PBXNativeTarget "BilibiliSpeed" */;
+			buildPhases = (
+				878A52FC5FF6A57D50B7B870 /* Sources */,
+				E2AA269EB967A8853A258BFA /* Frameworks */,
+				41D311A605520FC7B8B9A980 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BilibiliSpeed;
+			packageProductDependencies = (
+				953F0E4076698EEEEEF38320 /* BiliModels */,
+				F0A50D51DB52882451DDD0F0 /* BiliNetworking */,
+				19CCBCB9A6C0A3FC2E0B57D1 /* BiliPlayback */,
+			);
+			productName = BilibiliSpeed;
+			productReference = A8792157CB4F27FB949C035F /* BilibiliSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EA0BBFB4641B4E941FBF077 /* BilibiliSpeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA41B28AE8CC11ED1C9F917 /* Build configuration list for PBXNativeTarget "BilibiliSpeedUITests" */;
+			buildPhases = (
+				760DD443C1DF2461277A1FDF /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA290C1E75835394B937A40 /* PBXTargetDependency */,
+			);
+			name = BilibiliSpeedUITests;
+			productName = BilibiliSpeedUITests;
+			productReference = 93E46A602338E07A8524AEF6 /* BilibiliSpeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244210E48437B6556980A702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = B4E10CAA9C5E22150B71559C /* Build configuration list for PBXProject "BilibiliSpeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = AD936FCBED631FA67E05C3EA;
+			packageReferences = (
+				BC4A71180870F7945155FBB0 /* XCLocalSwiftPackageReference "../../Vendor/BiliKitCore" */,
+			);
+			productRefGroup = 0A3E27B8CA818264D75C8D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A04005BCAF206EEC990BD9 /* BilibiliSpeed */,
+				4EA0BBFB4641B4E941FBF077 /* BilibiliSpeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D311A605520FC7B8B9A980 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0561B6B779527A2FA058B6AB /* Resources/Assets.xcassets in Resources */,
+				2452B9A7AF0E645AAF318091 /* Resources/LICENSE.txt in Resources */,
+				592FFE00B0873774A1DA154F /* Resources/BiliKit-LICENSE.txt in Resources */,
+				0DF817B07E31CFFCF54E6CAE /* Resources/THIRD_PARTY.md in Resources */,
+				03B5563EF2DD1FD81D8D7F1A /* ../../CHANGELOG.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		760DD443C1DF2461277A1FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746629965A4FF5F5BB45B3B5 /* UITests/MobileSmokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878A52FC5FF6A57D50B7B870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E103756AFA669CEDB2EF2A3D /* ../../Sources/BiliGlass/BrowsePreferences.swift in Sources */,
+				D879EDFE5FFD7CDC92CC6BB6 /* ../../Sources/BiliGlass/PlaybackSequence.swift in Sources */,
+				42708F43EF27C810010A7375 /* ../../Sources/BiliGlass/InterfaceMotion.swift in Sources */,
+				4BBAA70169B551F32C336383 /* ../../Sources/BiliGlass/API.swift in Sources */,
+				867172CA0D2ADC4282E5823F /* ../../Sources/BiliGlass/AppCoinAuthorization.swift in Sources */,
+				BD1BBE9B7A42D83E6F7990C5 /* ../../Sources/BiliGlass/LoginRestoration.swift in Sources */,
+				91FE1B977526D8DF9AB12DCA /* ../../Sources/BiliGlass/Community.swift in Sources */,
+				426FFE888632901E9A057564 /* ../../Sources/BiliGlass/VideoActions.swift in Sources */,
+				D91F70A8AF207BAEA649DCC8 /* ../../Sources/BiliGlass/OfficialChallenge.swift in Sources */,
+				13E318A5F3E2DC9C48DFA830 /* ../../Sources/BiliGlass/CommentPage.swift in Sources */,
+				3E3BA0ADC66336B640989661 /* ../../Sources/BiliGlass/CommentText.swift in Sources */,
+				1065784069258CB6EA568CBA /* ../../Sources/BiliGlass/CommentVideoLink.swift in Sources */,
+				AFFD3DE9B0DA699FE85BC847 /* ../../Sources/BiliGlass/VideoExtras.swift in Sources */,
+				B0A8259CE1C3BF0352745137 /* ../../Sources/BiliGlass/VideoPreview.swift in Sources */,
+				F077D0279A03D6BB164AEC47 /* ../../Sources/BiliGlass/SearchFeatures.swift in Sources */,
+				B7E3157CAE18E2C196D7FC69 /* ../../Sources/BiliGlass/Regions.swift in Sources */,
+				C37A39D074E8C64712498BDF /* ../../Sources/BiliGlass/AccountHistory.swift in Sources */,
+				DEC13944B14ED5302364FF5F /* ../../Sources/BiliGlass/MessageShare.swift in Sources */,
+				5FD587C8073AF4139554BC33 /* ../../Sources/BiliGlass/NativeSpace.swift in Sources */,
+				F7183FEBA95E2E89D6BFA70F /* ../../Sources/BiliGlass/DynamicPublishing.swift in Sources */,
+				305814DABE98A9EC8DBD56CA /* ../../Sources/BiliGlass/Messaging.swift in Sources */,
+				63CD427F2FBAB5D8139C9A6B /* ../../Sources/BiliGlass/ImageUpload.swift in Sources */,
+				C41F2E68C508D97873BB0422 /* ../../Sources/BiliGlass/WatchHistorySync.swift in Sources */,
+				E5BC50BFC90B4FCB79B484C4 /* ../../Sources/BiliGlass/AppDateFormat.swift in Sources */,
+				435ABB2A1F99BD5183E1E0F8 /* ../../Sources/BiliGlass/ThumbnailCache.swift in Sources */,
+				8A0E2BBE875012E1E4D350CD /* ../../Sources/BiliGlass/TaskDeadline.swift in Sources */,
+				5CD75E728FF0915A9D71BAEF /* ../../Sources/BiliGlass/Player.swift in Sources */,
+				911D80119E7A27B46A385F73 /* ../../Sources/BiliGlass/PlaybackProgressDeadline.swift in Sources */,
+				1E6D42EF398DCE428AC2C31B /* ../../Sources/BiliGlass/CDNSelection.swift in Sources */,
+				63FB03B81C7525B3CD49D543 /* ../../Sources/BiliGlass/ParallelVideoStream.swift in Sources */,
+				F1829965BE252DAFBF7EA002 /* ../../Sources/BiliGlass/PlaybackDiskCache.swift in Sources */,
+				26395838477187FBED7AE299 /* ../../Sources/BiliGlass/VideoSignalling.swift in Sources */,
+				0B82F631B22B2CAB0509B809 /* ../../Sources/BiliGlass/MP4Compatibility.swift in Sources */,
+				F7B6D476C5FF6726085ABFB6 /* ../../Sources/BiliGlass/DanmakuModels.swift in Sources */,
+				8F51B58FB6AC72C50502B7BF /* ../../Sources/BiliGlass/Downloads.swift in Sources */,
+				CA43723A19ADEFF1ECCF5F9C /* ../../Sources/BiliGlass/DownloadPiece.swift in Sources */,
+				AB92A483337532872723C3EE /* ../../Sources/BiliGlass/DownloadPublication.swift in Sources */,
+				B1B07A1E9024C290B06F3188 /* ../../Sources/BiliGlass/NotificationModels.swift in Sources */,
+				3764518B756794241D0845D3 /* ../../Sources/BiliGlass/EmojiPicker.swift in Sources */,
+				F4F8E8F4834768842EA3B0C7 /* ../../Sources/BiliGlass/ConversationTimeline.swift in Sources */,
+				B854D1A2453CD8EFDA10557F /* ../../Sources/BiliGlass/DanmakuLayout.swift in Sources */,
+				33C14B7D59AAF6D4426301CB /* ../../Sources/BiliGlass/DanmakuCloudRules.swift in Sources */,
+				3992160A7A0F175D277A3221 /* ../../Sources/BiliGlass/DanmakuTextBitmap.swift in Sources */,
+				3B1210F97E634DAEA3A6C06B /* ../../Sources/BiliGlass/DanmakuSettings.swift in Sources */,
+				73065EB7D6B7AD007F800310 /* ../../Sources/BiliGlass/BiliImageURL.swift in Sources */,
+				44814DD5C6FE4F34DC0A80D4 /* ../../Sources/BiliGlass/DynamicAttachment.swift in Sources */,
+				EEDFD682FC61028BD9006CBF /* ../../Sources/BiliGlass/BAS.swift in Sources */,
+				4755E67EC223DEFD7D3378C2 /* ../../Sources/BiliGlass/SVGPath.swift in Sources */,
+				E21565AF0105624107E77DDA /* ../../Sources/BiliGlass/SpecialDanmaku.swift in Sources */,
+				F736272A2519AE5019A53493 /* Sources/MobileAccount.swift in Sources */,
+				31D4A655A7BE57189F52BA8E /* Sources/MobileActionBar.swift in Sources */,
+				58DFE8875041CCAA68FF749B /* Sources/MobileApp.swift in Sources */,
+				D433264DC7EA0FEC313F8635 /* Sources/MobileBrowse.swift in Sources */,
+				6052832E9B20B0827DC695E5 /* Sources/MobileCommunity.swift in Sources */,
+				15CC4A7031EBE3B966380045 /* Sources/MobileDanmakuCanvas.swift in Sources */,
+				1EC6FF87D1B9D3DF2EC3484E /* Sources/MobileDanmakuSettings.swift in Sources */,
+				B2A92D1C46C25414BA35CFCC /* Sources/MobileFavoriteFixture.swift in Sources */,
+				E4E61D763AE49B03138A0D9F /* Sources/MobileInbox.swift in Sources */,
+				C30ADD9536A63CE95FB01343 /* Sources/MobileMaterials.swift in Sources */,
+				EF5E2F11A9EC3D5CECF9B05D /* Sources/MobileNavigation.swift in Sources */,
+				917C68442D1E3BC6CDE99D61 /* Sources/MobileNowPlaying.swift in Sources */,
+				741E76A9518F89418D3C98ED /* Sources/MobilePlayer.swift in Sources */,
+				A36A208596D3511A419C607C /* Sources/MobileSocial.swift in Sources */,
+				2A5732D3D3D5F9EC816A1D61 /* Sources/MobileSpeedPicker.swift in Sources */,
+				720BC912A630C1D3364522E4 /* Sources/MobileTablet.swift in Sources */,
+				CC24DD3F3CE095945FDCD9EA /* Sources/MobileUIFixture.swift in Sources */,
+				11C673E423E92F6E4FD52250 /* Sources/MobileVideoControls.swift in Sources */,
+				575FB4E5DE24E53727EB9BDA /* Sources/MobileZoomableImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA290C1E75835394B937A40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A04005BCAF206EEC990BD9 /* BilibiliSpeed */;
+			targetProxy = F6301EAD2AC55A883FB1AF3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B0C687DF8B6B8DC790B519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		529836CB67897D5EB3992509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BilibiliSpeed;
+			};
+			name = Debug;
+		};
+		6C7EFF6369083C8E1F2B1994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FYLV37LFT2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS;
+				PRODUCT_NAME = BilibiliSpeed;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73EBF6644258C120893E685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C47A50CDFED4402F09C67EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BilibiliSpeed;
+			};
+			name = Release;
+		};
+		DD75E2CB1C510A828AC72D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FYLV37LFT2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdevlog.BilibiliSpeed.iOS;
+				PRODUCT_NAME = BilibiliSpeed;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA41B28AE8CC11ED1C9F917 /* Build configuration list for PBXNativeTarget "BilibiliSpeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529836CB67897D5EB3992509 /* Debug */,
+				C47A50CDFED4402F09C67EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A807E8A027297B0B93701FB /* Build configuration list for PBXNativeTarget "BilibiliSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7EFF6369083C8E1F2B1994 /* Debug */,
+				DD75E2CB1C510A828AC72D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E10CAA9C5E22150B71559C /* Build configuration list for PBXProject "BilibiliSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73EBF6644258C120893E685D /* Debug */,
+				0B0C687DF8B6B8DC790B519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BC4A71180870F7945155FBB0 /* XCLocalSwiftPackageReference "../../Vendor/BiliKitCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Vendor/BiliKitCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19CCBCB9A6C0A3FC2E0B57D1 /* BiliPlayback */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC4A71180870F7945155FBB0 /* XCLocalSwiftPackageReference "../../Vendor/BiliKitCore" */;
+			productName = BiliPlayback;
+		};
+		953F0E4076698EEEEEF38320 /* BiliModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC4A71180870F7945155FBB0 /* XCLocalSwiftPackageReference "../../Vendor/BiliKitCore" */;
+			productName = BiliModels;
+		};
+		F0A50D51DB52882451DDD0F0 /* BiliNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BC4A71180870F7945155FBB0 /* XCLocalSwiftPackageReference "../../Vendor/BiliKitCore" */;
+			productName = BiliNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 244210E48437B6556980A702 /* Project object */;
+}
